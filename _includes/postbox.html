@@ -12,6 +12,7 @@
             <h2 class="card-title"><a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>            
         </div>
+        {% comment %}
         <!-- <div class="card-footer bg-white">
             <div class="wrapfooter">
                 {% if post.author %}
@@ -27,6 +28,7 @@
                 <div class="clearfix"></div>
             </div>
         </div> -->
+        {% endcomment %}
     </div>
 </div>
 <!-- end post -->
