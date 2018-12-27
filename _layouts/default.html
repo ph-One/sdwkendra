@@ -57,6 +57,7 @@
     
     <div class="collapse navbar-collapse" id="navbarMediumish">
        
+        {% comment %}
         <!-- Begin Menu -->
         
             <!-- <ul class="navbar-nav ml-auto">
@@ -100,6 +101,7 @@
             </ul>		 -->
   
         <!-- End Menu -->
+        {% endcomment %}
 
     </div>
         
@@ -130,6 +132,7 @@
 
 <!-- Bottom Alert Bar
 ================================================== -->
+{% comment %}
 <!-- <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
@@ -141,11 +144,13 @@
         </form>
 	</div>
 </div>     -->
+{% endcomment %}
     
 </div><!-- /.container>
     
 <!-- Categories Jumbotron
 ================================================== -->
+{% comment %}
 <!-- <div class="jumbotron fortags">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
@@ -169,6 +174,7 @@
 		</div>
 	</div>
 </div> -->
+{% endcomment %}
  
 
 
@@ -180,9 +186,6 @@
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                  Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
-            <!-- <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
-            </div> -->
         </div>
     </div>
 </footer>
@@ -206,6 +209,5 @@
     
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
     
-<!-- <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script> -->
 </body>
 </html>
